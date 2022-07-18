@@ -16,3 +16,5 @@ n = 10
 # loop for printing tangent circles
 for i in range(1, n + 1, 1):
     t.circle(r * i)
+
+turtle.done()

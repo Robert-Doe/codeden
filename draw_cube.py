@@ -5,7 +5,7 @@ import turtle
 tut = turtle.Screen()
 
 # background color green
-tut.bgcolor("green")
+tut.bgcolor("white")
 
 # window title Turtle
 tut.title("Turtle")
@@ -39,3 +39,5 @@ my_pen.goto(150,150)
 # top left side
 my_pen.goto(50,150)
 my_pen.goto(0,100)
+
+turtle.done()

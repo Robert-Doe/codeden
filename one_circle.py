@@ -13,3 +13,5 @@ r = 50
 t.circle(r)
 
 t.end()
+
+turtle.done()

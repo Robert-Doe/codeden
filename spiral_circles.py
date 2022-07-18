@@ -8,3 +8,4 @@ r = 10
 # Loop for printing spiral circle
 for i in range(100):
     t.circle(r + i, 45)
+turtle.done()

@@ -16,7 +16,7 @@ def curve():
 def heart():
 
 	# Set the fill color to red
-	pen.fillcolor('red')
+	pen.fillcolor('black')
 
 	# Start filling the color
 	pen.begin_fill()
@@ -51,11 +51,11 @@ def txt():
 	pen.down()
 
 	# Set the text color to lightgreen
-	pen.color('lightgreen')
+	pen.color('white')
 
 	# Write the specified text in
 	# specified font style and size
-	pen.write("GeeksForGeeks", font=(
+	pen.write("Coding for Kids", font=(
 	"Verdana", 12, "bold"))
 
 
@@ -67,3 +67,5 @@ txt()
 
 # To hide turtle
 pen.ht()
+
+turtle.done()

@@ -49,3 +49,5 @@ t.pendown()
 
 
 t.forward(300)
+
+turtle.done()
